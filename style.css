@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  
+  }
+  
+  body{
+      background-color: rgb(247, 243, 111);
+      min-width: 800px;
+  }
+  .logo{
+       color: rgb(244, 42, 126);
+       font-size: 68px;
+       font-weight: bold;
+       margin: 10px 55px -1px
+      
+  }
+
+  .flex{
+      display: flex;
+      justify-content: center; 
+      
+  }
+  nav ul li {
+      display: inline ;
+      list-style: none;
+      font-size: 34px;
+      line-height: 80px;
+      margin: 0 15px;
+     
+  }
+  nav ul li a {
+      text-decoration: none;
+      cursor: pointer;
+      color: rgb(118, 242, 10);
+      padding: 7px 13px;
+      text-transform: capitalize;
+  
+  }
+  .active,a:hover{
+      background-color: rgb(249, 125, 48);
+      transition: 2s;
+  
+  }
+  .iam{
+      font-size: 55px;
+      text-transform: capitalize;
+  }
+  .abdullah{
+      font-size: 60px;
+      text-transform: capitalize;
+  }
+  .khan{
+     
+      text-transform: capitalize;
+  }
+  .box2 img{
+      width: 500px;
+     
+      border-radius: 1800px;
+      background-color: rgb(120, 120, 244);
+      padding: 40px;  
+  }
+  .maincontainer{
+  display: flex;
+  background-color: rgb(51, 185, 185);
+  justify-content: space-between;
+  
+  }
+  .box1{
+  width: 25%;
+  padding: 100px; ;
+  font-size: 20px;
+  }
+  .box2{
+      width: 25%;
+      padding: 100px;
+  
+  }
+  .box3{
+      width: 25%;
+      padding: 100px;
+      font-size: 20px;
+  }
+  .service{
+      font-size: 62px;
+      text-transform: capitalize;
+  }
+  .more{
+      color: rgb(253, 111, 9);
+      font-size: 28px;
+  }
+  .c2main {
+      display: flex;
+      background-color: rgb(236, 32, 32);
+      justify-content: space-evenly;
+      border: solid 10px rgb(45, 46, 46);
+      padding: 28px 38px 24px 30px;
+  
+      
+  }
+  .b1{
+  color: beige;
+  border: solid 5px blue;
+  background-color: blue;
+  font-size: 30px;
+  }
+  .b2{
+  color: rgb(38, 145, 251);
+  
+  border: solid 5px rgb(247, 247, 250);
+  background-color: rgb(250, 250, 252);
+  font-size: 30px;
+  }
+  .b3{
+  color: white;
+
+  border: solid 5px rgb(9, 9, 10);
+  background-color: rgb(14, 14, 15);
+  font-size: 30px;
+  }
+  .b4{
+      color: white;
+ 
+  border: solid 5px rgb(17, 90, 247);
+  background-color: rgb(20, 77, 247);
+  font-size: 30px;
+  }
+  .c3main{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(184, 180, 180);
+  }
+  .c1{
+      width: 558px;
+      padding: 144px;
+      font-size: 32px;
+  }
+  .needs{
+      font-size: 65px;
+      font-weight: 900;
+  }
+  .needs+p{
+      font-size: 80px;
+      text-transform: capitalize;
+  }
+  .c2{
+      display: flow-root;
+      width: 558px;
+      padding: 180px;
+      font-size: 32px;
+  }
+  
+  .project{ 
+  display: flex;
+  
+  }
+  .p22{
+      display: flex;
+  }
+
+  .pclr{
+      font-weight: bold;
+      font-size: 50px;
+      color: rgb(253, 111, 9);
+      justify-content: space-between;
+  }
